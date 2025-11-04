@@ -1,0 +1,52 @@
+# Byte-compiled / cache / logs
+__pycache__/
+*.py[cod]
+*.log
+*.tmp
+*.bak
+*.swp
+*.ipynb_checkpoints
+
+# Data folders
+data/raw/
+data/interim/
+data/external/
+data/processed/*.csv
+!data/processed/README.md
+
+# Models / Weights
+models/*.pkl
+models/*.h5
+models/*.pt
+models/*.onnx
+
+# Output folders
+assets/results/
+assets/xai_visualizations/
+assets/images/
+
+# Environment / IDE files
+.env
+.venv/
+env/
+venv/
+.idea/
+.vscode/
+
+# Jupyter notebooks autosave
+*.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# MLflow / Weights & Biases / Logs
+mlruns/
+wandb/
+logs/
+
+# Misc
+*.gz
+*.zip
+*.tar

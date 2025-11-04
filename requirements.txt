@@ -1,0 +1,22 @@
+# Core scientific stack
+numpy>=1.25
+pandas>=2.1
+matplotlib>=3.8
+seaborn>=0.13
+
+# Machine learning
+scikit-learn>=1.5
+xgboost>=2.0
+lightgbm>=4.1
+catboost>=1.2
+joblib>=1.4
+
+# Explainability
+shap>=0.44
+
+# Jupyter environment
+ipykernel>=6.29
+notebook>=7.2
+
+# Utilities
+tqdm>=4.66
